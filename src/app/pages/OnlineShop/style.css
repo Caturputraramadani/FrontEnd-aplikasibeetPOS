@@ -1,0 +1,25 @@
+.integrated {
+  padding: 5px 12px;
+  background-color: #5cb85c;
+  color: white;
+  border-radius: 15px;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.pendingIntegration {
+  padding: 5px 12px;
+  background-color: #F5C10B;
+  color: black;
+  border-radius: 15px;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.notIntegrated {
+  padding: 5px 12px;
+  background-color: #FADDD6;
+  border-radius: 15px;
+  font-size: 0.9rem;
+  font-weight: 600;
+}

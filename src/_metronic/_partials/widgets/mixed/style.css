@@ -1,0 +1,332 @@
+.wrapper-guide{
+  cursor: pointer;
+  transition: 2s;
+}
+.wrapper-guide.dashboard{
+  left: -70px;
+  position: absolute;
+  padding: 10px 20px;
+  border-radius: 0 25px 25px 25px;
+  z-index: 999;
+  top: -50px;
+  width: 500px;
+  box-shadow: 0 0 3px 1px #a66fa7;
+  background-color: white;
+}
+.wrapper-guide.report{
+  left: -70px;
+  position: absolute;
+  padding: 10px 20px;
+  border-radius: 0 25px 25px 25px;
+  z-index: 999;
+  top: 0;
+  width: 500px;
+  box-shadow: 0 0 3px 1px #a66fa7;
+  background-color: white;
+}
+.wrapper-guide.product{
+  left: -70px;
+  position: absolute;
+  padding: 10px 20px;
+  border-radius: 0 25px 25px 25px;
+  z-index: 999;
+  top: 90px;
+  width: 500px;
+  box-shadow: 0 0 3px 1px #a66fa7;
+  background-color: white;
+}
+.wrapper-guide.inventory{
+  left: -70px;
+  position: absolute;
+  padding: 10px 20px;
+  border-radius: 0 25px 25px 25px;
+  z-index: 999;
+  top: 130px;
+  width: 500px;
+  box-shadow: 0 0 3px 1px #a66fa7;
+  background-color: white;
+}
+.wrapper-guide.kitchen{
+  left: -70px;
+  position: absolute;
+  padding: 10px 20px;
+  border-radius: 0 25px 25px 25px;
+  z-index: 999;
+  top: 170px;
+  width: 500px;
+  box-shadow: 0 0 3px 1px #a66fa7;
+  background-color: white;
+}
+.wrapper-guide.outlet{
+  left: -70px;
+  position: absolute;
+  padding: 10px 20px;
+  border-radius: 0 25px 25px 25px;
+  z-index: 999;
+  top: 262px;
+  width: 500px;
+  box-shadow: 0 0 3px 1px #a66fa7;
+  background-color: white;
+}
+.wrapper-guide.outlet-basic{
+  left: -70px;
+  position: absolute;
+  padding: 10px 20px;
+  border-radius: 0 25px 25px 25px;
+  z-index: 999;
+  top: 175px;
+  width: 500px;
+  box-shadow: 0 0 3px 1px #a66fa7;
+  background-color: white;
+}
+.wrapper-guide.outlet-standard{
+  left: -70px;
+  position: absolute;
+  padding: 10px 20px;
+  border-radius: 0 25px 25px 25px;
+  z-index: 999;
+  top: 215px;
+  width: 500px;
+  box-shadow: 0 0 3px 1px #a66fa7;
+  background-color: white;
+}
+.wrapper-guide.promo{
+  left: -70px;
+  position: absolute;
+  padding: 10px 20px;
+  border-radius: 0 25px 25px 25px;
+  z-index: 999;
+  top: 307px;
+  width: 500px;
+  box-shadow: 0 0 3px 1px #a66fa7;
+  background-color: white;
+}
+.wrapper-guide.staff{
+  left: -70px;
+  position: absolute;
+  padding: 10px 20px;
+  border-radius: 0 25px 25px 25px;
+  z-index: 999;
+  top: 342px;
+  width: 500px;
+  box-shadow: 0 0 3px 1px #a66fa7;
+  background-color: white;
+}
+.wrapper-guide.staff-basic{
+  left: -70px;
+  position: absolute;
+  padding: 10px 20px;
+  border-radius: 0 25px 25px 25px;
+  z-index: 999;
+  top: 220px;
+  width: 500px;
+  box-shadow: 0 0 3px 1px #a66fa7;
+  background-color: white;
+}
+.wrapper-guide.staff-standard{
+  left: -70px;
+  position: absolute;
+  padding: 10px 20px;
+  border-radius: 0 25px 25px 25px;
+  z-index: 999;
+  top: 265px;
+  width: 500px;
+  box-shadow: 0 0 3px 1px #a66fa7;
+  background-color: white;
+}
+.wrapper-guide.role{
+  left: -70px;
+  position: absolute;
+  padding: 10px 20px;
+  border-radius: 0 25px 25px 25px;
+  z-index: 999;
+  top: 388px;
+  width: 500px;
+  box-shadow: 0 0 3px 1px #a66fa7;
+  background-color: white;
+}
+.wrapper-guide.role-standard{
+  left: -70px;
+  position: absolute;
+  padding: 10px 20px;
+  border-radius: 0 25px 25px 25px;
+  z-index: 999;
+  top: 305px;
+  width: 500px;
+  box-shadow: 0 0 3px 1px #a66fa7;
+  background-color: white;
+}
+.wrapper-guide.customer{
+  left: -70px;
+  position: absolute;
+  padding: 10px 20px;
+  border-radius: 25px 25px 25px 0;
+  z-index: 999;
+  bottom: 20px;
+  width: 500px;
+  box-shadow: 0 0 3px 1px #a66fa7;
+  background-color: white;
+}
+.wrapper-guide.customer-standard{
+  left: -70px;
+  position: absolute;
+  padding: 10px 20px;
+  border-radius: 25px 25px 25px 0;
+  z-index: 999;
+  bottom: 115px;
+  width: 500px;
+  box-shadow: 0 0 3px 1px #a66fa7;
+  background-color: white;
+}
+.wrapper-guide.commission{
+  left: -70px;
+  position: absolute;
+  padding: 10px 20px;
+  border-radius: 25px 25px 25px 0;
+  z-index: 999;
+  top: 330px;
+  width: 500px;
+  box-shadow: 0 0 3px 1px #a66fa7;
+  background-color: white;
+}
+
+/* Style jika ada Beetpos Support di menu Aside */
+/* .wrapper-guide.account{
+  left: -70px;
+  position: absolute;
+  padding: 10px 20px;
+  border-radius: 25px 25px 25px 0;
+  z-index: 999;
+  bottom: 135px;
+  width: 500px;
+  box-shadow: 0 0 3px 1px #a66fa7;
+  background-color: white;
+} */
+
+.wrapper-guide.account{
+  left: -70px;
+  position: absolute;
+  padding: 10px 20px;
+  border-radius: 25px 25px 25px 0;
+  z-index: 999;
+  bottom: 25px;
+  width: 500px;
+  box-shadow: 0 0 3px 1px #a66fa7;
+  background-color: white;
+}
+
+.wrapper-guide.account-bassic{
+  left: -70px;
+  position: absolute;
+  padding: 10px 20px;
+  border-radius: 25px 25px 25px 0;
+  z-index: 999;
+  bottom: 160px;
+  width: 500px;
+  box-shadow: 0 0 3px 1px #a66fa7;
+  background-color: white;
+}
+
+.wrapper-guide.account-standard{
+  left: -70px;
+  position: absolute;
+  padding: 10px 20px;
+  border-radius: 25px 25px 25px 0;
+  z-index: 999;
+  bottom: 20px;
+  width: 500px;
+  box-shadow: 0 0 3px 1px #a66fa7;
+  background-color: white;
+}
+.wrapper-guide.subscription{
+  left: -70px;
+  position: absolute;
+  padding: 10px 20px;
+  border-radius: 25px 25px 25px 0;
+  z-index: 999;
+  top: 410px;
+  width: 500px;
+  box-shadow: 0 0 3px 1px #a66fa7;
+  background-color: white;
+}
+
+/* Style jika ada Beetpos Support di menu Aside */
+/* .wrapper-guide.payment{
+  left: -70px;
+  position: absolute;
+  padding: 10px 20px;
+  border-radius: 25px 25px 25px 0;
+  z-index: 999;
+  bottom: 100px;
+  width: 500px;
+  box-shadow: 0 0 3px 1px #a66fa7;
+  background-color: white;
+} */
+.wrapper-guide.payment{
+  left: -70px;
+  position: absolute;
+  padding: 10px 20px;
+  border-radius: 25px 25px 25px 0;
+  z-index: 999;
+  bottom: 25px;
+  width: 500px;
+  box-shadow: 0 0 3px 1px #a66fa7;
+  background-color: white;
+}
+
+.wrapper-guide.payment-basic{
+  left: -70px;
+  position: absolute;
+  padding: 10px 20px;
+  border-radius: 25px 25px 25px 0;
+  z-index: 999;
+  bottom: 120px;
+  width: 500px;
+  box-shadow: 0 0 3px 1px #a66fa7;
+  background-color: white;
+}
+
+/* Style jika ada Beetpos Support di menu Aside */
+/* .wrapper-guide.payment-standard{
+  left: -70px;
+  position: absolute;
+  padding: 10px 20px;
+  border-radius: 25px 25px 25px 0;
+  z-index: 999;
+  bottom: 100px;
+  width: 500px;
+  box-shadow: 0 0 3px 1px #a66fa7;
+  background-color: white;
+} */
+
+.wrapper-guide.payment-standard{
+  left: -70px;
+  position: absolute;
+  padding: 10px 20px;
+  border-radius: 25px 25px 25px 0;
+  z-index: 999;
+  bottom: -10px;
+  width: 500px;
+  box-shadow: 0 0 3px 1px #a66fa7;
+  background-color: white;
+}
+
+.font-weight-bold{
+  font-size: 17px;
+}
+.background-black{
+  /* z-index: 99; */
+  position: absolute;
+  /* right: -5%;
+  bottom: -230%;
+  left: -100%;
+  top: -50%; */
+  background-color: rgba(128, 128, 128, 0.281);
+}
+
+.margin-top-55{
+  margin-top: 55px;
+}
+.margin-bottom-55{
+  margin-bottom: 55px;
+}

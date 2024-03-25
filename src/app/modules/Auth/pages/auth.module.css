@@ -1,0 +1,32 @@
+.containerFormPassword{
+  position: relative;
+}
+.wrapperIconEye, .wrapperIconEyeRegister {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+  position: absolute;
+}
+
+.wrapperIconEye{
+  right: 13px;
+  top: 16px;
+}
+.wrapperIconEye > img{
+  width: 100%;
+  height: 100%;
+}
+
+.wrapperIconEyeRegister{
+  right: 32px;
+  top: 8px;
+}
+.wrapperIconEyeRegister > img{
+  width: 100%;
+  height: 100%;
+}
+
+.checkbox{
+  width: 19px;
+  height: 19px;
+}

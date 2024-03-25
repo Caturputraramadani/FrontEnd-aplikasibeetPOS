@@ -1,0 +1,16 @@
+.list-business-email-modal-recepient{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  padding: 10px 18px;
+  border-radius: 10px;
+  box-shadow: 0 .2px 3px .4px rgb(207, 204, 204);
+}
+
+.form-group.width-form-group{
+  width: 74%;
+}
+
+.badge, .btn{
+  cursor: pointer;
+}

@@ -1,0 +1,11 @@
+.ck-content.ck-editor__editable_inline{
+  height: 350px;
+}
+
+.article-image{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+}

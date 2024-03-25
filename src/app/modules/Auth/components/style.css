@@ -1,0 +1,26 @@
+.edit, .submit{
+  font-size: 11px;
+  cursor: pointer;
+}
+.edit:hover, .submit:hover{
+  transform: scale(1.07);
+}
+.wrapper-method-sent-otp{
+  padding: 10px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.wrapper-method-sent-otp:hover{
+  transform: scale(1.05);
+}
+.whatsapp{
+  box-shadow: 0 0 3px 0.2px grey;
+}
+.gmail{
+  box-shadow: 0 0 3px 0.2px grey;
+}
+.react-date-picker__wrapper{
+  padding: 3px 25px;
+  border-radius: 6px;
+  border: thin solid rgb(211, 206, 206)
+}

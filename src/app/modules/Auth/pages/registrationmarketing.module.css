@@ -1,0 +1,219 @@
+.containerNavDropdown{
+  position: absolute;
+  width: 0vh;
+  height: 100%;
+  transition: 0.5s;
+}
+.containerNavDropdown.show{
+  padding: 10px 15px;
+  width: 100vw;
+  background-color: rgb(255, 255, 255);
+  z-index: 99999;
+}
+.containerNavbar{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 8px;
+  z-index: 999;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: white;
+  box-shadow: 0 .8px 3px 0 rgba(0, 0, 0, 0.2);
+}
+
+.wrapperIconClose{
+  width: 35px;
+  height: 35px;
+}
+
+.menuNavbar{
+  cursor: pointer;
+  margin: 0 8px;
+  font-size: 18px;
+  font-weight: 600;
+}
+.menuNavbar:hover{
+  transform: scale(1.02);
+}
+.navMid{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navRight{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.containerContent{
+  background-color: rgb(245, 245, 245);
+  padding: 120px 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.containerBox{
+  width: 85%;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: #f7d4f7;
+}
+
+.leftColumn{
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+}
+.rightColumn{  
+  border-radius: 0 10px 10px 0;
+  height: 100%;
+}
+.rightColumnTop{
+  height: 45%;
+}
+.rightColumnBottom{
+  height: 55%;
+  margin: 20px 35px;
+}
+
+.wrapperImage{
+  width: 27px;
+  object-fit: contain;
+}
+.wrapperImage > img {
+  width: 100%;
+  height: 100%;
+}
+
+.word{
+  font-size: 14px;
+  margin-left: 10px;
+}
+.containerFooter{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to bottom right, #dac2da, #623863);
+  background-color: #614e61;
+  color: white;
+}
+.contentFooter{
+  width: 85%;
+  padding: 80px 0;
+}
+.wrapperLogoBeetpos{
+  width: 200px;
+  object-fit: contain;
+  margin-bottom: 20px;
+}
+.wrapperLogoBeetpos > img{
+  width: 100%;
+  height: 100%;
+}
+.titleFooter{
+  font-size: 19px;
+  font-weight: 600;
+}
+.contentTitleFooter{
+  cursor: pointer;
+  font-size: 14px;
+  margin-bottom: 5px;
+  padding: 0;
+}
+.contentTitleFooter:hover{
+  transform: scale(1.02);
+}
+.address{
+  font-size: 14px;
+  margin-bottom: 5px;
+  padding: 0;
+}
+
+.wrapperLogoSosmed{
+  margin-right: 18px;
+  width: 38px;
+  object-fit: contain;
+}
+.wrapperLogoTitle{
+  margin-right: 18px;
+  width: 28px;
+  object-fit: contain;
+}
+
+.wrapperIconMenu {
+  height: 30px;
+  width: 30px;
+}
+
+.wrapperLogoSosmed > img, .wrapperLogoTitle > img, .wrapperIconClose > img, .wrapperIconMenu > img {
+  width: 100%;
+  height: 100%;
+}
+
+.title16weight{
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.copyRight{
+  font-size: 16px;
+}
+@media screen and (max-width: 768px) {
+  .rightColumn{  
+    height: fit-content;
+  }
+  .containerNavbar{
+    justify-content: space-between;
+  }
+  .wrapperLogoBeetpos{
+    width: 180px;
+  }
+  .wrapperIconClose{
+    width: 45px;
+    height: 45px;
+  }
+  .MenuNavDropdown{
+    padding: 18px 15px;
+    font-size: 24px;
+    font-weight: 600;
+  }
+  .buttonLogin{
+    width: 100%;
+    border-radius: 10px;
+    margin: 20px 0;
+    padding: 5px 0;
+    font-size: 16px;
+  }
+  .buttonSignup{
+    width: 100%;
+    border-radius: 10px;
+    padding: 5px 0;
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .wrapperLogoBeetpos{
+    width: 150px;
+  }
+  .wrapperIconClose{
+    width: 35px;
+    height: 35px;
+  }
+  .MenuNavDropdown{
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .buttonLogin{
+    font-size: 14px;
+  }
+  .buttonSignup{
+    font-size: 14px;
+  }
+}

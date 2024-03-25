@@ -1,0 +1,357 @@
+/* style border select di modul subscription */
+.subscription_right__FQT_l{
+  padding: 8px 14px;
+  border-radius: 6px;
+  border: 1px solid #EBEDF2;
+  /* box-shadow: 0 8px 6px -4px rgb(94, 93, 93); */
+}
+
+.subscription_right__FQT_l:focus{
+  outline: none;
+}
+
+.container-qr-outlet{
+  position: absolute;
+  top: -2800px;
+  /* top: 0; */
+  /* visibility: hidden; */
+}
+
+.length-sosmed-above-25{
+  font-size: 27px;
+}
+
+.length-sosmed-under-25{
+  display: flex;
+}
+
+.wrapper-qr-outlet{
+  width: 1240px;
+  height: 1748px;
+  position: relative;
+}
+
+canvas {
+  height: auto !important;
+  width: 100% !important;
+  max-width: 700px;
+}
+
+select.select-unit {
+  border: none;
+  outline: none;
+  color: rgb(108,117,129)
+  /* text-align: center; */
+}
+
+.business-name-qr-outlet-min-25, .outlet-name-qr-outlet-min-25, .table-name-qr-outlet-min-25 {
+  text-align: center;
+  color: black;
+  font-weight: 700;
+  font-size: 65px;
+  padding: 0 120px;
+}
+
+.business-name-qr-outlet-plus-25, .outlet-name-qr-outlet-plus-25, .table-name-qr-outlet-plus-25{
+  text-align: center;
+  color: black;
+  font-weight: 700;
+  font-size: 48px;
+  padding: 0 120px;
+}
+.top-lane-qr-outlet{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  background-color: #623863;
+  color: white;
+  /* width: 100%; */
+  left: 0;
+  right: 0;
+  top: 0;
+  margin: 10px;
+  font-size: 40px;
+  font-weight: 700;
+  padding: 20px 25px;
+}
+
+.bottom-lane-qr-outlet{
+  position: absolute;
+  background-color: #623863;
+  /* width: 100%; */
+  left: 0;
+  right: 0;
+  bottom: 0; 
+  padding: 15px 25px;
+  display: flex;
+  margin: 10px;
+  justify-content: center;
+}
+
+.qr-outlet-center{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.desc-qr-outlet{
+  margin-top: 10px;
+  text-align: center;
+  font-size: 35px;
+  color: black;
+}
+
+.bg-qr-outlet{
+  border: 1px solid white;
+  background-image: url('../../images/2478733 2.png');
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.logo-business-qr-outlet-empty{
+ margin-top: 310px;
+}
+
+.wrapper-logo-qr-outlet{
+  margin-top: 30px;
+  margin-right: 15px;
+  width: 360px;
+  /* height: 110px; */
+  object-fit: contain;
+}
+
+.powered-qr-outlet{
+  font-size: 35px;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+.wrapper-logo-powered-qr-outlet{
+  width: 220px;
+  object-fit: contain;
+  display: inline-block;
+}
+
+.wrapper-logo-qr-outlet > img, .wrapper-logo-powered-qr-outlet > img {
+  width: 100%;
+  height: 100%;
+}
+
+.icon-facebook-qr-outlet, .icon-instagram-qr-outlet, .icon-tiktok-qr-outlet{
+  width: 90px;
+  height: 90px;
+  object-fit: contain;
+}
+
+.wrapper-content-qr-outlet{
+  margin-top: 120px;
+}
+
+.icon-facebook-qr-outlet >img, .icon-instagram-qr-outlet > img, .icon-tiktok-qr-outlet > img{
+  width: 100%;
+  height: 100%;
+}
+
+.wrapper-icon-sosmed-qr-outlet{
+  display: flex;
+}
+/* start styling pdf Purchase Order */
+.style-pdf{
+  position: absolute;
+  margin-left: -200vw;
+  width: 100%;
+  padding: 15px 25px;
+}
+.logo-wrapper{
+  width: 150px;
+  height: 70px;
+}
+.logo-wrapper>img{
+  object-fit: contain;
+  width: 100%;
+  height: 100%;
+}
+.font-bold{
+  font-weight: 700;
+}
+.report-date{
+  margin: 30px 0;
+}
+.stock-id{
+  margin: 30px 0;
+}
+.wrap-content-opname{
+  height: fit-content;
+}
+.bulkhead{
+  width: .5px;
+  height: 120px;
+  background-color: black;
+  margin: 0 25px;
+}
+/* end styling pdf Purchase Order */
+
+.title-outlet-limit{
+  font-size: 22px;
+}
+
+.alert-outlet-limit{
+  text-align: center;
+  width: fit-content;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+/* start styling notification */
+.wrapper-notification{
+  background-color: rgb(224, 224, 111);
+  color: black;
+  width: 100%;
+  padding: 5px 10px;
+  margin-bottom: 20px;
+}
+.wrapper-notification > p{
+  margin: 0;
+  padding: 0;
+}
+/* end styling notification */
+
+/* Start styling Map */
+.wrapper-map{
+  position: relative
+}
+.wrapper-map > h2 {
+  position: absolute;
+  z-index: 99;
+  color: white;
+  top: 1rem;
+  left: 1rem;
+  margin: 0;
+  padding: 0;
+}
+.selected-spot:focus{
+  outline: none;
+}
+.search {
+  position: absolute;
+  top: 1rem;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  max-width: 400px;
+  z-index: 10;
+}
+
+.search input {
+  padding: 0.5rem;
+  font-size: 1.5rem;
+  width: 100%;
+}
+
+.locate {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background: none;
+  border: none;
+  z-index: 10;
+}
+.locate img {
+  width: 30px;
+  cursor: pointer;
+}
+/* end Styling Map */
+
+.wrapper-qrcode{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.headerPage {
+  padding: 1rem;
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  position: relative;
+  border-bottom: 1px solid #ebedf2;
+  width: 100%;
+}
+
+.headerStart {
+  align-content: flex-start;
+  align-self: center;
+}
+
+.headerEnd {
+  align-content: flex-end;
+}
+
+.total-commission{
+  margin-top: 25px;
+}
+
+.box {
+  border: 1px solid #ebedf2;
+  padding: 1rem;
+}
+
+.boxDashed {
+  border: 2px dashed #ebedf2;
+  border-radius: 4px;
+  padding: 20px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.lineBottom {
+  border-bottom: 1px solid #ebedf2;
+}
+
+.filterSection {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 0 1rem;
+}
+
+.title {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+/* Styling Show and Hide Password */
+.container-form-password{
+  position: relative;
+}
+
+.wrapper-icon-password-staff, .wrapper-icon-password-detail-staff, .wrapper-icon-password-account-information {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+  position: absolute;
+}
+.wrapper-icon-password-staff {
+  right: 35px;
+  top: 35px;
+}
+.wrapper-icon-password-detail-staff  {
+  right: 15px;
+  top: 28px;
+}
+.wrapper-icon-password-account-information {
+  right: 34px;
+  top: 35px;
+}
+.wrapper-icon-password-staff > img, .wrapper-icon-password-detail-staff > img, .wrapper-icon-password-account-information > img {
+  width: 100%;
+  height: 100%;
+}
+
+/* End Styling Show and Hide Password */

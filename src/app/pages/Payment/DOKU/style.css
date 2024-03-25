@@ -1,0 +1,76 @@
+.wrapper-content-payment{
+  background-color: white;
+  height: 100vh;
+  border: 1px solid
+}
+.button-submit-payment{
+  width: 100%;
+  padding: 5px 0;
+  color: white;
+  background-color: #623863;
+}
+.wrapper-input{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+input.doku{
+  width: 100%;
+  padding: 6px;
+  border-radius: 3px;
+  border: 1px solid rgb(192, 191, 191);
+}
+input.doku:focus{
+  outline: none;
+  border: 1px solid #623863;
+  box-shadow: 0 0 5px 0.2px  #623863;
+}
+.top-color{
+  top: 0;
+  position: absolute;
+  background-color: #623863;
+  width: 100%;
+  height: 10px;
+}
+#MerchatPaymentPage{
+  width: 50%;
+}
+.payment-detail{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.payment-detail h4 {
+  font-size: 27px;
+}
+.wrapper-button{
+  display: flex;
+  justify-content: flex-end;
+}
+.title-payment{
+  font-size: 28px;
+}
+.payment-method{
+  font-size: 18px;
+}
+
+@media screen and (max-width: 495px) {
+  #MerchatPaymentPage{
+    width: 100%;
+  }
+  .payment-detail{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .title-payment{
+    font-size: 24px;
+  }
+  .payment-method{
+    width: 50%;
+    font-size: 12px;
+  }
+  .payment-detail h4 {
+    font-size: 22px;
+  }
+}

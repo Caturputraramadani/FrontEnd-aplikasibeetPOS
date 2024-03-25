@@ -1,0 +1,13 @@
+.wrapperBodyModalSync{
+  height: fit-content;
+  overflow-y: auto;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.wrapperListProduct{
+  width: 50%;
+  height: 90px;
+  margin-bottom: 10px;
+  padding: 0 5px;
+}

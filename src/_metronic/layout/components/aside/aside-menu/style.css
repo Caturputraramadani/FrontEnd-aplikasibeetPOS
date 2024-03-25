@@ -1,0 +1,42 @@
+.hide-aside{
+  object-fit: contain;
+  width: 20px;
+  height: 20px;
+}
+
+.show-aside{
+  margin-right: 15px;
+  object-fit: contain;
+  width: 20px;
+  height: 20px;
+}
+
+.wrapper-icon > img, .hide-aside > img, .show-aside > img {
+  width: 100%;
+  height: 100%;
+}
+
+.dropdown-menu-lv1{
+  margin-left: 33px;
+}
+
+.dropdown-menu-lv2{
+  margin-left: 45px;
+}
+
+.hide-dropdown-report, .hide-dropdown-report-sales, .hide-dropdown-report-sales{
+  display: none;
+  height: 0;
+}
+
+.show-dropdown-report, .show-dropdown-report, .show-dropdown-report-employee{
+  display: block;
+  height: fit-content;
+}
+
+.handle-between-dropdown-report{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

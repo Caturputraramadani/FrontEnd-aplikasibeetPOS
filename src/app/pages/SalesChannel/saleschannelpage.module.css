@@ -1,0 +1,159 @@
+.hoverEffect{
+  cursor: pointer;
+}
+.hoverEffect:hover{
+  transform: scale(1.02);
+}
+
+.containerTokopedia{
+  width: 33.33%;
+}
+.wrapperTokopedia{
+  width: 190px;
+  object-fit: contain;
+}
+.wrapperTokopedia > img{
+  width: 100%;
+  height: 100%;
+}
+
+.containerBukalapak{
+  width: 33.33%;
+}
+.wrapperBukalapak{
+  width: 180px;
+  object-fit: contain;
+}
+.wrapperBukalapak > img{
+  width: 100%;
+  height: 100%;
+}
+
+.containerShopee{
+  width: 33.33%;
+}
+.wrapperShopee{
+  width: 150px;
+  object-fit: contain;
+}
+.wrapperShopee > img{
+  width: 100%;
+  height: 100%;
+}
+
+.containerBlibli{
+  width: 33.33%;
+}
+.wrapperBlibli{
+  width: 150px;
+  object-fit: contain;
+}
+.wrapperBlibli > img{
+  width: 100%;
+  height: 100%;
+}
+
+.containerLazada{
+  width: 33.33%;
+}
+.wrapperLazada{
+  width: 180px;
+  object-fit: contain;
+}
+.wrapperLazada > img{
+  width: 100%;
+  height: 100%;
+}
+
+.containerJDid{
+  width: 33.33%;
+}
+.wrapperJDid{
+  width: 120px;
+  object-fit: contain;
+}
+.wrapperJDid > img{
+  width: 100%;
+  height: 100%;
+}
+
+.containerZilingo{
+  width: 33.33%;
+}
+.wrapperZilingo{
+  width: 180px;
+  object-fit: contain;
+}
+.wrapperZilingo > img{
+  width: 100%;
+  height: 100%;
+}
+
+.containerZalora{
+  width: 33.33%;
+}
+.wrapperZalora{
+  width: 180px;
+  object-fit: contain;
+}
+.wrapperZalora > img{
+  width: 100%;
+  height: 100%;
+}
+
+.box{
+  display: flex;
+  justify-content: center;
+  padding: 7px;
+  border: 1px dashed grey;
+  cursor: pointer;
+}
+.box:hover{
+  transform: scale(1.02);
+}
+
+.wrapperCredentialsExist{
+  font-weight: 600;
+  text-align: center;
+  padding: 6px;
+  border-radius: 5px;
+  background-color: rgb(231, 231, 231);
+  cursor: pointer;
+}
+.wrapperCredentialsExist:hover{
+  transform: scale(1.01);
+  box-shadow: 0 8px 6px -4px rgb(209, 209, 209);
+}
+
+.inputCredentialsExist{
+  width: 100%;
+  border: none;
+  background-color: rgb(231, 231, 231);
+  text-align: center;
+}
+
+.inputCredentialsExist:focus{
+  outline: none;
+}
+
+.wrapperCredentialsNew{
+  font-weight: 600;
+  text-align: center;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.wrapperCredentialsNew:hover{
+  transform: scale(1.01);
+}
+
+.inputCredentialsNew{
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+  border-radius: 4px;
+  padding: 6px;
+}
+
+.inputCredentialsNew:focus{
+  outline: none;
+}
